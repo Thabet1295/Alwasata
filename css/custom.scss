@@ -1270,7 +1270,7 @@
         }
         
        
-        @media screen and(max-width:768px) {
+        @media  (max-width:767px) {
             header#header .main-nav .navbar-brand{
                 margin: -5px 0;
             }
@@ -1461,11 +1461,47 @@
             }
 
         }
+        @media (max-width:768px) {
+            .footer {
+                .post-block {
+                    .post-text {
+                        margin: 0px 4px;
+                   }
+                }
+                div.text
+                {
+                    padding: 0px !important;
+                }
+            }
+          
+        }
         .d-flex {
             display: flex!important;
-            flex-wrap: wrap;
+           
         }
         .search-block 
         {
             flex-wrap: initial;
         }
+        section {
+            width:32%;
+            margin:0 auto;
+            margin-top:80px;
+           
+          h2 {
+            color: #EBE3AA; 
+            font-family:sans-serif;
+            font-weight:lighter;
+            font-size: 2em;
+            white-space: nowrap;/*Evitar saltos de línea*/
+            overflow: hidden;
+            width: 30em;
+            animation: keyframes 5s steps(500) infinite; 
+          }
+        }
+          @keyframes keyframes{ 
+            
+            from{ width: 0px;} 
+            
+          } 
+          
