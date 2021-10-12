@@ -391,8 +391,7 @@
                 }
                 .post-twitter {
                     justify-content: center;
-                    align-items: center;
-                    .svg-inline--fa {
+                     .svg-inline--fa {
                         font-size: 40px;
                         width: 35px;
                     }
@@ -599,6 +598,7 @@
                         text-decoration: unset;
                         padding: 5px;
                         font-size: 11px;
+                        cursor: pointer;
                         svg {
                             margin: 0px 10px;
                             font-size: 11px;
@@ -1037,9 +1037,9 @@
                     {
                         padding: 0px;
                         p{
-                            line-height: 28px;
-                            margin-bottom: 15px;
-                            font-size: 16px;
+                            line-height: 25px;
+                            margin-bottom: 30px;
+                            font-size: 15px;
                         }
                     }
                     .cat-post {

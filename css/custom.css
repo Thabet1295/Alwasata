@@ -361,7 +361,6 @@ header#header .breaking-news marquee a {
 }
 .footer .post-twitter {
   justify-content: center;
-  align-items: center;
 }
 .footer .post-twitter .svg-inline--fa {
   font-size: 40px;
@@ -548,6 +547,7 @@ a {
   text-decoration: unset;
   padding: 5px;
   font-size: 11px;
+  cursor: pointer;
 }
 .main-content .cat-post a.read-more svg {
   margin: 0px 10px;
@@ -899,9 +899,9 @@ a {
   padding: 0px;
 }
 .main-content .posts-section .post-text p {
-  line-height: 28px;
-  margin-bottom: 15px;
-  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 30px;
+  font-size: 15px;
 }
 .main-content .posts-section .cat-post {
   padding: 15px;
