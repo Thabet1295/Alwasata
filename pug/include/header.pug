@@ -1,0 +1,572 @@
+header(class="header" id="header")
+    nav(class="navbar topNav navbar-expand-lg navbar-light bg-light d-none d-lg-block")
+        div(class="container")
+            span(class="today-date")|الإثنين ,4 أكتوبر 2021
+            button(class="navbar-toggler", type="button", data-bs-toggle="collapse", data-bs-target="#navbarfirstnav", aria-controls="navbarfirstnav", aria-expanded="false", aria-label="Toggle navigation")
+                span(class="fas fa-bars")
+            #navbarfirstnav(class="collapse navbar-collapse")
+                ul(class="navbar-nav  topmenu me-auto mb-2 mb-lg-0")
+                    li(class="nav-item")
+                        a(class="nav-link active", aria-current="page", href="#") الاعلانات
+                    li(class="nav-item")
+                        a(class="nav-link", href="#") المنتديات
+                    li(class="nav-item dropdown")
+                        a#navbarDropdown(class="nav-link dropdown-toggle", href="#", role="button", data-bs-toggle="dropdown", aria-expanded="false")
+                            | قائمة منسدلة
+                        ul(class="dropdown-menu", aria-labelledby="navbarDropdown")
+                            li
+                                a(class="dropdown-item", href="#") عنصر فرعي
+                            li
+                                a(class="dropdown-item", href="#") عنصر فرعي
+                            li
+                                hr(class="dropdown-divider")
+                            li
+                                a(class="dropdown-item", href="#") عنصر فرعي
+                div(class="social-icons")
+                    a(href="#")
+                        i(class="fab fa-facebook-f") 
+                    a(href="#")
+                        i(class="fab fa-twitter") 
+                    a(href="#")
+                        i(class="fab fa-behance") 
+                    a(href="#")
+                        i(class="fab fa-instagram") 
+                    a(href="#")
+                        i(class="fab fa-vimeo")                  
+                form(class="d-flex search-block")
+                    input(class="form-control", type="search", placeholder="بحث", aria-label="Search")
+                    button(class="btn btn-outline-success", type="submit")
+                        i(class="fas fa-search")
+
+    div(class="header-content")
+        div(class="container")
+            div(class="d-flex justify-content-between mobile-header align-items-center mt-3")
+                div(class="header-logo")
+                    a(href="index.html")
+                        img(class="img-fluid" src="./img/logowebsite.png")
+                button(class="navbar-toggler d-lg-none d-sm-block",type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight")
+                    span(class="fas fa-bars")
+                #offcanvasRight(class="offcanvas offcanvas-end", tabindex="-1", aria-labelledby="offcanvasRightLabel")
+                    div(class="offcanvas-header")
+                        a(href="index.html")
+                            img(class="img-fluid" src="./img/logowebsite.png")
+                        button(type="button", class="btn-close text-reset", data-bs-dismiss="offcanvas", aria-label="Close")
+                            i(class="fas fa-times")
+                    div(class="offcanvas-body")
+                        form(class="d-flex search-block")
+                            input(class="form-control", type="search", placeholder="بحث", aria-label="Search")
+                            button(class="btn btn-default search-btn", type="submit")
+                                i(class="fas fa-search")
+                        div(class="social-icons m-3 d-flex justify-content-center")
+                            a(href="#")
+                                i(class="fab fa-facebook-f fa-2x") 
+                            a(href="#")
+                                i(class="fab fa-twitter fa-2x") 
+                            a(href="#")
+                                i(class="fab fa-behance fa-2x") 
+                            a(href="#")
+                                i(class="fab fa-instagram fa-2x") 
+                            a(href="#")
+                                i(class="fab fa-vimeo fa-2x")   
+                        nav(class="navbar navbar-expand-lg  ")
+                            
+                            ul(class="navbar-nav  mb-2 mb-lg-0")
+                                li(class="nav-item")
+                                    a(class="nav-link active", aria-current="page", href="#") 
+                                        i(class="fas fa-home me-2")
+                                        | الرئيسية
+                                li(class="nav-item")
+                                    a(class="nav-link", href="#") 
+                                        i(class="fas fa-bars me-2")
+                                        | الاعلانات
+                                li(class="nav-item dropdown")
+                                    a#navbarDropdown(class="nav-link dropdown-toggle", href="#", role="button", data-bs-toggle="dropdown", aria-expanded="false")
+                                        i(class="fas fa-futbol me-2")
+                                        | رياضة
+                                    ul(class="dropdown-menu", aria-labelledby="navbarDropdown")
+                                        li
+                                            a(class="dropdown-item", href="#") خصائص
+                                        li
+                                            hr(class="dropdown-divider")    
+                                        li
+                                            a(class="dropdown-item", href="#") خصائص
+                                        li
+                                            hr(class="dropdown-divider")
+                                        li
+                                            a(class="dropdown-item", href="#") خصائص
+                                li(class="nav-item")
+                                    a(class="nav-link") 
+                                        i(class="fas fa-globe-americas me-2")
+                                        | اخبار العالم 
+                                    
+                         
+                       
+                div(class="header-adv") 
+                    a(href="#")   
+                        img(class="img-fluid" src="./img/header-adv.jpg")
+    nav(class="navbar  main-nav navbar-expand-lg navbar-light bg-light d-none d-lg-block")
+        div(class="container")
+            a(class="navbar-brand", href="#")
+                i(class="fas fa-home")
+            #navbarSupportedContent(class="collapse navbar-collapse")
+                ul(class="navbar-nav me-auto mb-2 mb-lg-0")
+                    li(class="nav-item dropdown has-megamenu")
+                        a(class="nav-link dropdown-toggle", href="#", data-bs-toggle="dropdown")
+                            i(class="fas fa-bars")
+                            | الاعلانات
+                        div(class="dropdown-menu megamenu", role="menu")
+                            div(class="row g-3")
+                                div(class="col-lg-3 col-6")
+                                    div(class="col-megamenu")
+                                        a(class="nav-link dropdown-toggle pb-3", href="#", data-bs-toggle="dropdown")
+                                            i(class="fas fa-home")
+                                            | اشكال الصفحة 
+                                        ul(class="list-unstyled sub-menu")
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                    // col-megamenu.//
+                                    // end col-3
+                                div(class="col-lg-3 col-6")
+                                    div(class="col-megamenu")
+                                        a(class="nav-link dropdown-toggle pb-3", href="#", data-bs-toggle="dropdown")
+                                            i(class="fas fa-sliders-h")
+                                            | سلايدرات
+                                        ul(class="list-unstyled sub-menu")
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                    // col-megamenu.//
+                                    // end col-3
+                                div(class="col-lg-3 col-6")
+                                    div(class="col-megamenu")
+                                        a(class="nav-link dropdown-toggle pb-3", href="#", data-bs-toggle="dropdown")
+                                            i(class="fas fa-newspaper")
+                                            | الاعلانات
+                                        ul(class="list-unstyled sub-menu")
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                    // col-megamenu.//
+                                div(class="col-lg-3 col-6")
+                                    div(class="col-megamenu")
+                                        img(src="./img/headerlayouts.png",class="img-fluid")
+                                // end col-3
+                                // end row
+                                // dropdown-mega-menu.//
+                    li(class="nav-item dropdown has-megamenu")
+                        a(class="nav-link dropdown-toggle", href="#", data-bs-toggle="dropdown")
+                            i(class="fas fa-industry")
+                            | خصائص
+                        div(class="dropdown-menu megamenu", role="menu")
+                            div(class="row g-3")
+                                div(class="col-lg-3 col-6")
+                                    div(class="col-megamenu")
+                                        a(class="nav-link dropdown-toggle pb-3", href="#", data-bs-toggle="dropdown")
+                                            i(class="fas fa-home")
+                                            | اشكال الصفحة 
+                                        ul(class="list-unstyled sub-menu")
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                    // col-megamenu.//
+                                    // end col-3
+                                div(class="col-lg-3 col-6")
+                                    div(class="col-megamenu")
+                                        a(class="nav-link dropdown-toggle pb-3", href="#", data-bs-toggle="dropdown")
+                                            i(class="fas fa-sliders-h")
+                                            | سلايدرات
+                                        ul(class="list-unstyled sub-menu")
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                    // col-megamenu.//
+                                    // end col-3
+                                div(class="col-lg-3 col-6")
+                                    div(class="col-megamenu")
+                                        a(class="nav-link dropdown-toggle pb-3", href="#", data-bs-toggle="dropdown")
+                                            i(class="fas fa-newspaper")
+                                            | الاعلانات
+                                        ul(class="list-unstyled sub-menu")
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                    // col-megamenu.//
+                                div(class="col-lg-3 col-6")
+                                    div(class="col-megamenu")
+                                        a(class="nav-link dropdown-toggle pb-3", href="#", data-bs-toggle="dropdown")
+                                            i(class="fas fa-newspaper")
+                                            | الاعلانات
+                                        ul(class="list-unstyled sub-menu")
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                    // col-megamenu.//    
+                    li(class="nav-item dropdown has-megamenu")
+                        a(class="nav-link dropdown-toggle", href="#", data-bs-toggle="dropdown")
+                            i(class="fas fa-world")
+                            | اخبار العالم
+                        div(class="dropdown-menu megamenu", role="menu")
+                            div(class="d-flex align-items-start")
+                                #v-pills-tab(class="nav flex-column nav-pills me-3", role="tablist", aria-orientation="vertical")
+                                    button#v-pills-home-tab(class="nav-link active", data-bs-toggle="pill", data-bs-target="#v-pills-home", type="button", role="tab", aria-controls="v-pills-home", aria-selected="true") الرياضة
+                                    button#v-pills-profile-tab(class="nav-link", data-bs-toggle="pill", data-bs-target="#v-pills-profile", type="button", role="tab", aria-controls="v-pills-profile", aria-selected="false") الشرق الاوسط
+                                    button#v-pills-messages-tab(class="nav-link", data-bs-toggle="pill", data-bs-target="#v-pills-messages", type="button", role="tab", aria-controls="v-pills-messages", aria-selected="false") فيديوهات
+
+                                #v-pills-tabContent(class="tab-content")
+                                    #v-pills-home(class="tab-pane fade show active", role="tabpanel", aria-labelledby="v-pills-home-tab") 
+                                        div(class="row")
+                                            div(class="col-md-3")
+                                                div(class="post-block")
+                                                    div(class="post-thumb")
+                                                        a(href="#")
+                                                            img(src="./img/old-car-310x165.jpg",class="img-fluid" alt="")
+                                                            i(class="fas fa-camera-retro")
+                                                    div(class="post-text")
+                                                        p سر النجاح هو النظام نظام صارم يقضي على الفوضى في حياتك
+                                                        div(class="post-date d-flex")
+                                                            i(class="fas fa-clock")
+                                                            p يناير 30, 2022
+                                            div(class="col-md-3")
+                                                div(class="post-block")
+                                                    div(class="post-thumb")
+                                                        a(href="#")
+                                                            img(src="./img/old-car-310x165.jpg",class="img-fluid" alt="")
+                                                            i(class="fas fa-camera-retro")
+                                                    div(class="post-text")
+                                                        p سر النجاح هو النظام نظام صارم يقضي على الفوضى في حياتك
+                                                        div(class="post-date d-flex")
+                                                            i(class="fas fa-clock")
+                                                            p يناير 30, 2022
+                                            div(class="col-md-3")
+                                                div(class="post-block")
+                                                    div(class="post-thumb")
+                                                        a(href="#")
+                                                            img(src="./img/old-car-310x165.jpg",class="img-fluid" alt="")
+                                                            i(class="fas fa-camera-retro")
+                                                    div(class="post-text")
+                                                        p سر النجاح هو النظام نظام صارم يقضي على الفوضى في حياتك
+                                                        div(class="post-date d-flex")
+                                                            i(class="fas fa-clock")
+                                                            p يناير 30, 2022
+                                            div(class="col-md-3")
+                                                div(class="post-block")
+                                                    div(class="post-thumb")
+                                                        a(href="#")
+                                                            img(src="./img/old-car-310x165.jpg",class="img-fluid" alt="")
+                                                            i(class="fas fa-camera-retro")
+                                                    div(class="post-text")
+                                                        p سر النجاح هو النظام نظام صارم يقضي على الفوضى في حياتك
+                                                        div(class="post-date d-flex")
+                                                            i(class="fas fa-clock")
+                                                            p يناير 30, 2022                                                
+                                    #v-pills-profile(class="tab-pane fade", role="tabpanel", aria-labelledby="v-pills-profile-tab")
+                                        div(class="row")
+                                            div(class="col-md-3")
+                                                div(class="post-block")
+                                                    div(class="post-thumb")
+                                                        a(href="#")
+                                                            img(src="./img/old-car-310x165.jpg",class="img-fluid" alt="")
+                                                            i(class="fas fa-camera-retro")
+                                                    div(class="post-text")
+                                                        p سر النجاح هو النظام نظام صارم يقضي على الفوضى في حياتك
+                                                        div(class="post-date d-flex")
+                                                            i(class="fas fa-clock")
+                                                            p يناير 30, 2022
+                                            div(class="col-md-3")
+                                                div(class="post-block")
+                                                    div(class="post-thumb")
+                                                        a(href="#")
+                                                            img(src="./img/old-car-310x165.jpg",class="img-fluid" alt="")
+                                                            i(class="fas fa-camera-retro")
+                                                    div(class="post-text")
+                                                        p سر النجاح هو النظام نظام صارم يقضي على الفوضى في حياتك
+                                                        div(class="post-date d-flex")
+                                                            i(class="fas fa-clock")
+                                                            p يناير 30, 2022
+                                            div(class="col-md-3")
+                                                div(class="post-block")
+                                                    div(class="post-thumb")
+                                                        a(href="#")
+                                                            img(src="./img/old-car-310x165.jpg",class="img-fluid" alt="")
+                                                            i(class="fas fa-camera-retro")
+                                                    div(class="post-text")
+                                                        p سر النجاح هو النظام نظام صارم يقضي على الفوضى في حياتك
+                                                        div(class="post-date d-flex")
+                                                            i(class="fas fa-clock")
+                                                            p يناير 30, 2022
+                                            div(class="col-md-3")
+                                                div(class="post-block")
+                                                    div(class="post-thumb")
+                                                        a(href="#")
+                                                            img(src="./img/old-car-310x165.jpg",class="img-fluid" alt="")
+                                                            i(class="fas fa-camera-retro")
+                                                    div(class="post-text")
+                                                        p سر النجاح هو النظام نظام صارم يقضي على الفوضى في حياتك
+                                                        div(class="post-date d-flex")
+                                                            i(class="fas fa-clock")
+                                                            p يناير 30, 2022 
+                                    #v-pills-messages(class="tab-pane fade", role="tabpanel", aria-labelledby="v-pills-messages-tab")
+                                        div(class="row")
+                                            div(class="col-md-3")
+                                                div(class="post-block")
+                                                    div(class="post-thumb")
+                                                        a(href="#")
+                                                            img(src="./img/old-car-310x165.jpg",class="img-fluid" alt="")
+                                                            i(class="fas fa-camera-retro")
+                                                    div(class="post-text")
+                                                        p سر النجاح هو النظام نظام صارم يقضي على الفوضى في حياتك
+                                                        div(class="post-date d-flex")
+                                                            i(class="fas fa-clock")
+                                                            p يناير 30, 2022
+                                            div(class="col-md-3")
+                                                div(class="post-block")
+                                                    div(class="post-thumb")
+                                                        a(href="#")
+                                                            img(src="./img/old-car-310x165.jpg",class="img-fluid" alt="")
+                                                            i(class="fas fa-camera-retro")
+                                                    div(class="post-text")
+                                                        p سر النجاح هو النظام نظام صارم يقضي على الفوضى في حياتك
+                                                        div(class="post-date d-flex")
+                                                            i(class="fas fa-clock")
+                                                            p يناير 30, 2022
+                                            div(class="col-md-3")
+                                                div(class="post-block")
+                                                    div(class="post-thumb")
+                                                        a(href="#")
+                                                            img(src="./img/old-car-310x165.jpg",class="img-fluid" alt="")
+                                                            i(class="fas fa-camera-retro")
+                                                    div(class="post-text")
+                                                        p سر النجاح هو النظام نظام صارم يقضي على الفوضى في حياتك
+                                                        div(class="post-date d-flex")
+                                                            i(class="fas fa-clock")
+                                                            p يناير 30, 2022
+                                            div(class="col-md-3")
+                                                div(class="post-block")
+                                                    div(class="post-thumb")
+                                                        a(href="#")
+                                                            img(src="./img/old-car-310x165.jpg",class="img-fluid" alt="")
+                                                            i(class="fas fa-camera-retro")
+                                                    div(class="post-text")
+                                                        p سر النجاح هو النظام نظام صارم يقضي على الفوضى في حياتك
+                                                        div(class="post-date d-flex")
+                                                            i(class="fas fa-clock")
+                                                            p يناير 30, 2022 
+                    li(class="nav-item dropdown has-megamenu")
+                        a(class="nav-link dropdown-toggle ", href="#", data-bs-toggle="dropdown")
+                            i(class="fas fa-female")
+                            | سيدتي
+                        div(class="dropdown-menu megamenu", role="menu")  
+                            div(class="row")
+                                div(class="col-lg-4 col-6")
+                                    div(class="col-megamenu")
+                                        ul(class="list-unstyled sub-menu")
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                            li
+                                                a(href="#") Custom Menu
+                                div(class="col-lg-4 col-6")
+                                    div(class="col-megamenu middle-image") 
+                                        div(class="post-block")
+                                            div(class="post-thumb")
+                                                a(href="#")
+                                                    img(src="./img/old-car-310x165.jpg",class="img-fluid" alt="")
+                                                    i(class="fas fa-eye")
+                                            div(class="post-text")
+                                                p سر النجاح هو النظام نظام صارم يقضي على الفوضى في حياتك
+                                                div(class="post-date d-flex")
+                                                    i(class="fas fa-clock")
+                                                    p يناير 30, 2022               
+                                div(class="col-lg-4 col-6 third-mega")
+                                    div(class="col-megamenu")
+                                        div(class="post-block d-flex")
+                                            div(class="post-thumb")
+                                                img(src="https://themes.tielabs.com/sahifa-rtl/wp-content/uploads/sites/6/2015/01/7717834982_bbd7e12b8c_b-110x75.jpg", alt="")
+                                            div(class="post-text")
+                                                p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                div(class="post-date d-flex")
+                                                    i(class="fas fa-clock")
+                                                    p يناير 30, 2022
+                                        div(class="post-block d-flex")
+                                            div(class="post-thumb")
+                                                img(src="https://themes.tielabs.com/sahifa-rtl/wp-content/uploads/sites/6/2015/01/7717834982_bbd7e12b8c_b-110x75.jpg", alt="")
+                                            div(class="post-text")
+                                                p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                div(class="post-date d-flex")
+                                                    i(class="fas fa-clock")
+                                                    p يناير 30, 2022
+                                        div(class="post-block d-flex")
+                                            div(class="post-thumb")
+                                                img(src="https://themes.tielabs.com/sahifa-rtl/wp-content/uploads/sites/6/2015/01/7717834982_bbd7e12b8c_b-110x75.jpg", alt="")
+                                            div(class="post-text")
+                                                p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                div(class="post-date d-flex")
+                                                    i(class="fas fa-clock")
+                                                    p يناير 30, 2022                        
+                    li(class="nav-item dropdown")
+                        a(class="nav-link dropdown-toggle", data-bs-toggle="dropdown", aria-expanded="false", href="#")
+                            i(class="fas fa-folder-open")
+                            | الارشيف  
+                        ul(class="dropdown-menu menu-sub-content")
+                            li
+                                a(class="dropdown-item", href="#")
+                                    i(class="fas fa-clock")
+                                    | ارشيف الكتاب
+                            li
+                                a(class="dropdown-item", href="#")  
+                                    i(class="fas fa-clock")
+                                    | تصنيفات
+                            li
+                                a(class="dropdown-item", href="#") 
+                                    i(class="fas fa-clock")
+                                    | التاريخ
+                            li
+                            li
+                                a(class="dropdown-item", href="#") 
+                                    i(class="fas fa-clock")
+                                    | نتائج البحث
+                    li(class="nav-item dropdown has-megamenu")
+                        a(class="nav-link dropdown-toggle ", href="#", data-bs-toggle="dropdown")
+                            i(class="fas fa-play-circle")
+                            | فيديوهات   
+                        div(class="dropdown-menu megamenu video-menu", role="menu")  
+                            div(class="row")
+                                div(class="col-md-3")
+                                    div(class="post-block")
+                                        div(class="post-thumb")
+                                            a(href="#")
+                                                img(src="./img/old-car-310x165.jpg",class="img-fluid" alt="")
+                                                i(class="fas fa-play-circle")
+                                        div(class="post-text")
+                                            p سر النجاح هو النظام نظام صارم يقضي على الفوضى في حياتك
+                                            div(class="post-date d-flex")
+                                                i(class="fas fa-clock")
+                                                p يناير 30, 2022   
+                                div(class="col-md-3")
+                                    div(class="post-block")
+                                        div(class="post-thumb")
+                                            a(href="#")
+                                                img(src="./img/old-car-310x165.jpg",class="img-fluid" alt="")
+                                                i(class="fas fa-play-circle")
+                                        div(class="post-text")
+                                            p سر النجاح هو النظام نظام صارم يقضي على الفوضى في حياتك
+                                            div(class="post-date d-flex")
+                                                i(class="fas fa-clock")
+                                                p يناير 30, 2022  
+                                div(class="col-md-3")
+                                    div(class="post-block")
+                                        div(class="post-thumb")
+                                            a(href="#")
+                                                img(src="./img/old-car-310x165.jpg",class="img-fluid" alt="")
+                                                i(class="fas fa-play-circle")
+                                        div(class="post-text")
+                                            p سر النجاح هو النظام نظام صارم يقضي على الفوضى في حياتك
+                                            div(class="post-date d-flex")
+                                                i(class="fas fa-clock")
+                                                p يناير 30, 2022  
+                                div(class="col-md-3")
+                                    div(class="post-block")
+                                        div(class="post-thumb")
+                                            a(href="#")
+                                                img(src="./img/old-car-310x165.jpg",class="img-fluid" alt="")
+                                                i(class="fas fa-play-circle")
+                                        div(class="post-text")
+                                            p سر النجاح هو النظام نظام صارم يقضي على الفوضى في حياتك
+                                            div(class="post-date d-flex")
+                                                i(class="fas fa-clock")
+                                                p يناير 30, 2022                                                                 
+    div(class="breaking-news")
+        div(class="container")
+            div(class="breaking-box")
+                span(class="breaking-flag") عاجل 
+                marquee( direction="right" loop scrollamount="5")
+                    span(class="fas fa-rss")
+                    a(href="#") تركي الفيصل: لم يكن هناك مفر من سقوط الحكومة الأفغانية 
+                    span(class="fas fa-rss")
+                    a(href="#") تركي الفيصل: لم يكن هناك مفر من سقوط الحكومة الأفغانية 
+                    span(class="fas fa-rss")
+                    a(href="#") تركي الفيصل: لم يكن هناك مفر من سقوط الحكومة الأفغانية 
+                    span(class="fas fa-rss")
+                    a(href="#") تركي الفيصل: لم يكن هناك مفر من سقوط الحكومة الأفغانية 
+                    span(class="fas fa-rss")
+                    a(href="#") تركي الفيصل: لم يكن هناك مفر من سقوط الحكومة الأفغانية 
+                    span(class="fas fa-rss")
+                    a(href="#") تركي الفيصل: لم يكن هناك مفر من سقوط الحكومة الأفغانية 
+
+
+
+
+
+
+

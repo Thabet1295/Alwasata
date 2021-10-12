@@ -1,0 +1,21 @@
+extend index
+block website_title 
+    title  Single Post
+block index
+    div(class="main-content mt-5")
+        div(class="container")
+            div(class="row")
+                div(class="col-md-9")
+                    nav(class="crumb d-flex")
+                        a(href="#") 
+                            i(class="fas fa-home")  
+                            | الرئيسية 
+                        span(class="delimater") /
+                        p(class="post-name") نتائج البحث عن 
+                    div(class="not-found")
+                        h1 404 
+                        p لا توجد نتائج مطابقة للبحث 
+                        a(class="btn btn-block" href="index.html")  
+                            i(class="fas fa-home")  
+                            |العودة للصفحة الرئيسية 
+                
